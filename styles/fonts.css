@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Rubik.ttf';
+    src: url('../fonts/Rubik.ttf');
+}
+
+@font-face {
+    font-family: 'Rubik.woff';
+    src: url('../fonts/Rubik.woff');
+}
+
+@font-face {
+    font-family: 'Rubik.woff2';
+    src: url('../fonts/Rubik.woff2');
+}
+
+@font-face {
+    font-family: 'Rubikbold.ttf';
+    src: url('../fonts/Rubikbold.ttf');
+}
+
+@font-face {
+    font-family: 'Rubikbold.woff';
+    src: url('../fonts/Rubikbold.woff');
+}
+
+@font-face {
+    font-family: 'Rubikbold.woff2';
+    src: url('../fonts/Rubikbold.woff2');
+}
