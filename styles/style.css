@@ -133,7 +133,7 @@
     }
     
     .page-title-links a:hover {
-        cursor: pointar;
+        cursor: pointer;
         background-color: #242a5a;
     }
     
@@ -433,7 +433,7 @@
     }
     
     .our-team-card div {
-        border: 2px slid black;
+        border: 2px solid black;
     }
     
     .our-team-card div:first-child::before {
@@ -812,7 +812,7 @@
             margin-top: -1300px;
         }
         html {
-            owerflow-x: hidden;
+            overflow-x: hidden;
         }
         .about-service {
             margin-bottom: 30px;
