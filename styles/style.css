@@ -664,6 +664,7 @@ h1 {
     bottom: 15px;
     right: 15px;
     padding: 5px 10px;
+    cursor: pointer;
 }
 
 .shown:hover {
@@ -782,159 +783,156 @@ footer {
         display: none;
     }
 }
+
 @media (max-width: 768px) {
     .news .container-fluid {
         margin-bottom: 80px;
     }
-    
     footer {
         margin-top: -90px;
     }
-    
     .about-us__picture img {
         max-width: 500px;
         min-height: 355px;
     }
-    
     .burger-menu {
         display: block;
     }
-    
     .header-menu {
         display: none;
     }
-    
     .our-moments-photo div {
         margin: 5px;
         width: 48%;
         box-sizing: border-box;
     }
-    
     .our-moments-photo img {
         height: 150px;
         width: 250px;
     }
-    
     .page-header-brands img {
         width: 50px;
     }
-    
     .page-header-brands img {
         margin-top: 0px;
     }
-    
     .page-title-links {
         margin-bottom: 130px;
     }
 }
+
 @media (max-width: 576px) {
     .page-title-links {
         margin-bottom: 190px;
     }
-    
     .page-title-links a {
         border-radius: 10px;
         padding: 10px 15px;
         margin-left: 10px;
     }
 }
+
 @media (max-width: 559px) {
     .our-moments-photo div {
         margin: 5px;
         width: 98%;
         box-sizing: border-box;
     }
-    
     .our-moments-photo img {
         height: 250px;
         width: 350px;
     }
-    
     footer {
         margin-top: 0px;
     }
-    
     .about-us__picture img {
         max-width: 400px;
         min-height: 255px;
     }
-    
     .page-header .container-fluid:nth-child(2) {
         padding-top: 5px;
         height: 800px;
         margin-bottom: 235px;
     }
-    
     .page-header .container-fluid:nth-child(2) .container {
         height: 902px;
         padding-top: 50px;
         margin-bottom: 115px;
     }
-    
     .page-title-links {
         margin-bottom: 290px;
     }
 }
+
 @media (max-width: 510px) {
     .page-title-links {
         margin-bottom: 230px;
     }
 }
+
 @media (max-width: 432px) {
     .about-us__picture img {
         max-width: 300px;
         min-height: 200px;
     }
-    
     .our-moments-photo img {
         height: 150px;
         width: 200px;
     }
-    
     footer {
         top: -1200px;
     }
-    
     .page-header-contacts {
         display: none;
     }
-    
     .page-header-brands img {
         width: 40px;
     }
-    
     .page-header-brands img {
         margin-top: 0px;
     }
 }
+
 @media (max-width: 400px) {
     .page-title-links a {
         border-radius: 5px;
         padding: 5px 10px;
         margin-left: 5px;
     }
-    
     .page-title-links {
         margin-bottom: 110px;
     }
+    .page-header-brands img {
+        margin-top: 80px;
+    }
 }
+
+@media (max-width: 391px) {
+    .page-header-brands img {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 355px) {
+    .page-header-brands img {
+        width: 30px;
+    }
+}
+
 @media (max-width: 332px) {
     .about-us__picture img {
         max-width: 200px;
         min-height: 150px;
     }
-    
     .page-title-links a {
         border-radius: 5px;
         padding: 3px 5px;
         margin-left: 3px;
     }
-    
-    .page-header-brands img {
-        width: 30px;
-    }
-    
     .page-title-links {
         margin-bottom: 90px;
+    }
+    h1 {
+        font-size: 50px;
     }
 }
